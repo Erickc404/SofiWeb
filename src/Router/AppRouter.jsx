@@ -11,7 +11,7 @@ export const AppRouter = () => {
         <Routes>
             <Route element={<LayoutPublic />}>
                 <Route element={<PublicRoutes />}>
-                    <Route path="Home" Component={Home} element={<Home />} />
+                    <Route path="/" Component={Home} element={<Home />} />
                     <Route path="/Servicios" Component={Servicios} element={<Servicios />} />
                     <Route path="/Bodas" Component={Bodas} element={<Bodas />} />
                     <Route path="/Fiestas" Component={Fiestas} element={<Fiestas />} />
