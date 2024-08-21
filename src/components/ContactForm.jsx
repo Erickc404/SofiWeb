@@ -48,7 +48,7 @@ const ContactForm = () => {
             <form className="bg-white p-8 rounded-lg shadow-md w-screen max-w-lg" onSubmit={handleSubmit}>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="form-group">
-                        <label htmlFor="nombre" className="block text-sm font-medium text-gray-700">Nombre Completo sino.</label>
+                        <label htmlFor="nombre" className="block text-sm font-medium text-gray-700">Nombre Completo.</label>
                         <input type="text" id="nombre" name="nombre" value={formData.nombre} onChange={handleChange} className="mt-1 p-2 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500" required />
                     </div>
                     <div className="form-group">

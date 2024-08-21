@@ -55,7 +55,7 @@ const Home = () => {
           <div className='flex w-screen h-1/2 gap-10 p-20'>
             <div className='basis-1/2 grid justify-items-center items-center'>
               <div className=''>
-                <h1 className='font-serif font-extralight tracking-widest text-2xl text-left'>ABOUT US</h1>
+                <h1 className='font-serif font-extralight tracking-widest text-2xl text-left'>Nuestras redes</h1>
                 <h2 className='leading-10 text-3xl text-left tracking-widest mt-5 mb-5'>Sorprender a tus invitados nunca ha sido tan espectacular.</h2>
                 <p className='font-serif text-sm text-start'>Contáctanos en nuestras redes sociales</p>
                 <p className='font-serif text-sm text-start'>encuéntranos en...</p>
@@ -78,7 +78,7 @@ const Home = () => {
           <div className='relative font-serif'>
             <img src={startTodayIMG} alt="PILARES" className='w-[1462px] h-[388px] object-cover' />
             <div className='absolute inset-60 flex flex-col justify-center items-center text-white'>
-              <h1 className='text-4xl'>Quieres vivir una hermosa experiencia?</h1>
+              <h1 className='text-4xl'>¿Quieres vivir una hermosa experiencia?</h1>
               <div className='mt-10'>
                 
               </div>
